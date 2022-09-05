@@ -1,6 +1,3 @@
-from dataclasses import dataclass
-from itertools import product
-from math import prod
 from fastapi import APIRouter
 from redis_client.crud import delete_hash, get_hash, save_hash
 from schemas.product import Product
